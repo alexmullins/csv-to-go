@@ -7,24 +7,23 @@
 	A simple utility to translate JSON into a Go type definition.
 */
 
-function jsonToGo(json, typename)
+function jsonToGo(csv, typename)
 {
 	var data;
 	var scope;
 	var go = "";
 	var tabs = 0;
 
-
-	var result = Papa.parse(json,{
+	var result = Papa.parse(csv,{
 		dynamicTyping: true,
 		header: true
 	});
 
-	if (result.errors !== null)
+	if (result.errors.length !== 0)
 	{
 		return {
 			go: "",
-			error: result.errors.message
+			error: result.errors[0].message
 		};
 	}
 	scope = result.data;
