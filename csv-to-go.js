@@ -16,8 +16,10 @@ function jsonToGo(json, typename)
 
 	try
 	{
-		data = JSON.parse(json.replace(/\.0/g, ".1")); // hack that forces floats to stay as floats
-		scope = data;
+		var result = Papa.parse(json,{
+			header: true
+		});
+		scope = result.data;
 	}
 	catch (e)
 	{
