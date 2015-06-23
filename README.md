@@ -7,6 +7,6 @@ Translates CSV into a Go type definition. [Check it out!](http://alexmullins.git
 
 CSV-to-Go - Alex Mullins
 
-Built on [JSON-to-Go](https://github.com/mholt/json-to-go) and Papa Parse from Matt Holt ([mholt6](https://twitter.com/mholt6)).
+Built on [JSON-to-Go](https://github.com/mholt/json-to-go) and [Papa Parse](https://github.com/mholt/PapaParse) from Matt Holt ([mholt6](https://twitter.com/mholt6)).
 
 The Go Gopher is originally by Renee French. This artwork is an adaptation.
