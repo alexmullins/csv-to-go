@@ -1,4 +1,4 @@
-[<img src="https://alexmullins.github.io/csv-to-go/resources/images/json-to-go.png" alt="CSV-to-Go converts CSV to a Go struct"></a>](https://alexmullins.github.io/csv-to-go)
+[<img src="https://alexmullins.github.io/csv-to-go/resources/images/csv-to-go.png" alt="CSV-to-Go converts CSV to a Go struct"></a>](https://alexmullins.github.io/csv-to-go)
 
 Translates CSV into a Go type definition. [Check it out!](http://alexmullins.github.io/csv-to-go)
 
