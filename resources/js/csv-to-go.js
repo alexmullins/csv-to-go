@@ -79,7 +79,7 @@ function csvToGo(csv, typename)
 					indent(tabs);
 					append(format(keyname)+" ");
 					parseScope(scope[keyname]);
-					append(' `json:"'+keyname+'"`\n');
+					append(' `csv:"'+keyname+'"`\n');
 				}
 				indent(--tabs);
 				append("}");
